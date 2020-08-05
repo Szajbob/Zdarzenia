@@ -49,8 +49,8 @@ class CreateProject:
         self.booking = Booking(self.saveText)    
         
     def create(self):
-            
-
+        pass
+    
 root = tk.Tk()
 project = CreateProject(root)
 root.mainloop()
